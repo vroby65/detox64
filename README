@@ -1,0 +1,35 @@
+
+DETOX64 v0.9
+==================================================================
+This was just a quick hack to batch convert some old C64 BASIC progams,
+without having to go by a C64 emulator.  Support for other formats will
+be implemented on request.
+
+
+AUTHOR
+==================================================================
+detox64 was written by Stian Soreng
+http://freshmeat.net/projects/detox64
+
+
+EXAMPLE USAGE
+==================================================================
+For processing a standard C64 BASIC file, just type:
+
+        detox64 myfile.bas
+
+If you saved the BASIC file from inside an emulator, for example VICE,
+the file extension might be "p00".  In this case, the file has an extended
+header which begins with "C64File", and it can be skipped by issuing the
+following parameter:
+
+        detox64 -f p00 myfile.p00
+
+The parameter "-f bas" is currently redundant, but is provided for
+future use.
+
+
+TEST FILES
+==================================================================
+The directory "tests" provides a few sample files for testing detox64.
+
