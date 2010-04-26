@@ -1,0 +1,5 @@
+
+Type 'make'.  This will compile the binary in the src/ directory.
+A simple man page is provided in the man/ directory.
+For everything else, please consult the README file.
+
