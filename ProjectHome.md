@@ -1,0 +1,1 @@
+detox64 is an application which translates C64 BASIC files to readable text.
